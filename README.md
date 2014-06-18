@@ -53,10 +53,17 @@ folder, effectively performing a backup.
 
 ## Features
 
+* Bidirectional synchronization between the Simplenote web site and a
+  local directory of text files on your computer
+* Upload notes
+* Backup notes
+* Merge changes
+
 
 ## TODO
 
 - Tag support
+- Switch to v2 API
 
 ## Copyright And License
 
