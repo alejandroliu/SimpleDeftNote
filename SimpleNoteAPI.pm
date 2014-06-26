@@ -170,7 +170,7 @@ sub getNote {
 	'body' => $txt);
 }
 
-sub deleteNote {
+sub delNote {
     my ($self,$key) = @_;
     warn "Network: delete note \"$key\"\n" if $flag_network_traffic;
     my $resp = $self->{ua}->get($self->url.'delete?key='.$key.
